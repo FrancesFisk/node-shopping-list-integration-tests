@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: iK2sr+lFhCZLjmj9Wxz+4QJv6P8KLR0WvEKQ0BOcvd6mK9XB6d0lya8J7xFsYro2oKK8rIe4NRTiobv456WwFJ9vIWv2N5a3bUwCIoof9Gyxodnq928yyuYXrsZ8+OxO8YzxFTsF0mkudooXt4t0Zap57InzlBTWUfLiGtv7OhPEE/XDfV8QU2Be4SSmrrrTuTGJuXMRJLIvkop+PC/ObYGgF3BPVRDBb0wNHcpup/QtGsh77px29Kc8xQuXNWnsW5TE9x5HY+V0Qj0DuKYtP7rDx7ffdptSChYfTri3x+B9GjwIZyknQU76csQG6H3TIRrPoRlB7tSqgDXA/wNzrhyrsLYd4FpXimGNdf2IXp4uGJYj8/vfZ7n8KNjLuJLAbCfbvau6jbbgsAvJBXLCLrEXFgTeKUQ2jVtZfiWPkHzHpyGT68hpof0UH7/b3a++larAhtKeLDGGa+ZDDEUJCjbqSJrifV8izF+qfHR3/JToYXS6A6+0LSfd40bWstKVm0Dxtx8TLIUsl/rTg2MiUjt5maysRAgKWIAgvL+muIP5bK1NkMTOtuLLBgBKFdWhbgXa0supOMAYJWKqqjmjhid+5SvKGCqij8B55ilGhDZNsZChkK4+rfBYbLUAWcIyCAf+MRYa+efRK3/d0+xcHUjkQKsLyUGZXL46VZUJcwA=
+  app: https://blooming-harbor-83131.herokuapp.com/
+  on:
+    repo: FrancesFisk/node-shopping-list-integration-tests
